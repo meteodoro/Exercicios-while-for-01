@@ -1,0 +1,17 @@
+﻿## Ignorar pastas de configuração do Rider / IntelliJ
+.idea/
+*.sln.iml
+
+## Ignorar pastas onde o C# compila o código (arquivos executáveis locais)
+bin/
+obj/
+
+## Arquivos de preferências do usuário e logs
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+## Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db   
